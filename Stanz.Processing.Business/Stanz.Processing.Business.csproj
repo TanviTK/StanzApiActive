@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Stanz.Database.Repository\Stanz.Database.Repository.csproj" />
+    <ProjectReference Include="..\Stanz.Processing.ExternalAPI\Stanz.Processing.ExternalAPI.csproj" />
+    <ProjectReference Include="..\Stanz.Standard.Models\Stanz.Standard.Models.csproj" />
+  </ItemGroup>
+
+</Project>
